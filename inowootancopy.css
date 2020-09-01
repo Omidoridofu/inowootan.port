@@ -1,0 +1,245 @@
+*{
+  margin:0;
+  font-family: 'YuMincho';
+  background-color:black;
+  text-decoration: none;
+  color:white;
+}
+body{
+  margin:0;
+}
+
+hr{
+  width:100px;
+  height:0px;
+  color:white;
+  margin: 20px auto 0;
+
+}
+/*title⏬*/
+
+.background{
+  background-color: black;
+  height:auto;
+}
+
+.title{
+  padding-top:300px;
+}
+
+.title h1,p{
+  color:white;
+  letter-spacing: 2px;
+  text-align:center;
+}
+
+.enter-container{
+  padding-top:20px;
+  width:auto;
+  margin:0 auto;
+  text-align:center;
+}
+
+.enter:hover{
+  opacity:0.4;
+  transition:0.5s;
+
+}
+
+.enter{
+  color:white;
+  font-size:30px;
+  text-decoration: none;
+  border:1px solid white;
+  padding:4px 6px;
+  transition:0.5s;
+}
+
+.after-enter{
+  display:none;
+  width:1000px;
+  margin:0 auto;
+}
+
+.after-enter h1{
+  color:white;
+}
+
+/*enter後⏬*/
+.inowootan{
+  padding-top:20px;
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+}
+
+.left-up{
+  position:absolute;
+  left:0;
+  width:150px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.left-up p{
+  font-size:17px;
+}
+
+.left-up h1{
+  font-size:23px;
+  letter-spacing: 2px;
+}
+
+.menus{
+  margin-top:40px;
+}
+
+
+
+.menu p{
+  transition:0.5s;
+  font-size:30px;
+}
+
+.menu p:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+
+.menu-title{
+  text-align:center;
+  padding-top:30px;
+}
+
+.portfolio{
+  width:1000px;
+  height:400px;
+  margin:0 auto;
+  padding-top:20px;
+}
+
+.ganja{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+.name{
+  font-size:18px;
+}
+
+.ganja p{
+  font-size:14px;
+}
+
+.ganja h1,img{
+  transition:0.5s;
+}
+
+.ganja h1:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+
+.ganja img:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+
+.chill{
+  width:270px;
+  height:270px;
+
+}
+
+.contact-bottom{
+  height:400px;
+  display:flex;
+}
+
+.e-mail-container{
+  width:40%;
+  height:100%;
+
+}
+
+.e-mail-container p{
+  font-size:18px;
+}
+
+
+.form{
+  height:100%;
+  width:60%;
+
+}
+
+.form p{
+  text-align:left;
+  font-size:17px;
+}
+
+.input-write{
+  width:400px;
+  height:30px;
+  color:white;
+  font-size:100%;
+  border:solid 1px gray;
+  font-family:"游ゴシック体";
+}
+
+textarea{
+  height:80px;
+  width:400px;
+  color:white;
+  font-family:"游ゴシック体";
+  font-size:15px;
+}
+
+.submit-btn{
+
+  margin:10px  343px 0;
+}
+
+.input-submit{
+
+  width:60px;
+  height:40px;
+  border:solid 1px gray;
+  color:white;
+  font-size:100%;
+}
+
+.shin{
+  margin:0 auto;
+  display:block;
+  background-color: white ;
+}
+
+.profile-container{
+  text-align:center;
+}
+
+.profile-container h1{
+  margin:20px 0 10px;
+  letter-spacing: 2px;
+}
+
+.kochira{
+  font-size:14px;
+}
+
+.kochira:hover{
+  text-decoration: underline;
+  text-decoration-color:white;
+}
+
+.profile-p{
+  margin-top:7px;
+}
+
+.profile-container p{
+  margin-top:10px;
+}
