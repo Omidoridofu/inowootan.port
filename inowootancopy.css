@@ -110,12 +110,13 @@ hr{
   text-align:center;
   padding-top:30px;
 }
-
+/*----------------------------------------------------*/
 .portfolio{
   width:1000px;
   height:400px;
   margin:0 auto;
   padding-top:20px;
+  text-align: center;
 }
 
 .ganja{
@@ -123,7 +124,7 @@ hr{
   height:300px;
   margin:0 auto;
   text-align: center;
-
+  display: inline-block;
 }
 
 .name{
@@ -153,7 +154,32 @@ hr{
   height:270px;
 
 }
+.osz{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  text-align: center;
+  display: inline-block;
+}
 
+.osz p{
+  font-size:14px;
+}
+
+.osz h1,img{
+  transition:0.5s;
+}
+
+.osz h1:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+
+.osz img:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+/*----------------------------------------------------*/
 .contact-bottom{
   height:400px;
   display:flex;
