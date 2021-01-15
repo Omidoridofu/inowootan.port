@@ -42,6 +42,12 @@
         <h1>Portfolio Sites</h1>
       </div>
       <div class="portfolio">
+        <div class="osz">
+          <a href="https://osz-onesevenzero.github.io/Home/" target=”_blank”><img src="osz-port.jpg" alt="#" class="chill"></a>
+          <a href="https://osz-onesevenzero.github.io/Home/" target=”_blank”><h1 class="name">OSZ Bland Homepage</h1> </a>
+          <p>依頼を受け、ホームページを作成した物です。</p>
+          <p>作成期間：2日</p>
+        </div>
         <div class="ganja">
             <a href="https://omidoridofu.github.io/"　target=”_blank”><img src="bestchill.jpg" alt="#" class="chill"></a>
             <a href="https://omidoridofu.github.io/"　target=”_blank”><h1 class="name">Sweat Berry Dispensary</h1></a>
@@ -104,11 +110,11 @@
 
     <script>
 
-    $(".title").hide().fadeIn(3000);
+    $(".title").hide().fadeIn(2000);
 
     $(function(){
   $(".enter").on('click',function(){
-    $('.title').fadeOut(500).queue(function(){
+    $('.title').fadeOut(200).queue(function(){
       $(".after-enter").fadeIn();
       $(this).removeClass(".title").dequeue();
     });
