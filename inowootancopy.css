@@ -110,7 +110,9 @@ hr{
   text-align:center;
   padding-top:30px;
 }
-/*----------------------------------------------------*/
+
+
+
 .portfolio{
   width:1000px;
   height:400px;
@@ -179,7 +181,8 @@ hr{
   opacity:0.4;
   transition:0.5s;
 }
-/*----------------------------------------------------*/
+
+
 .contact-bottom{
   height:400px;
   display:flex;
